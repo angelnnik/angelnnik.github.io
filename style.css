@@ -1,0 +1,154 @@
+* {
+	box-sizing:border-box;
+}
+
+body {
+	background-color: #E8E8E8;
+}
+
+.title{
+	font-size:45px;
+	margin-left: 300px;
+	color:#696A72;
+	text-align: center;
+	border-bottom: 2px solid currentColor;
+}
+
+.menu {
+	margin-left: 300px;
+        text-align: center;
+
+    }
+
+.menu li{
+
+        display:inline-block;
+        text-align: center;
+        width: 20%; /* задаем размер пункта можно в пикселях*/
+    }
+
+.menu a {
+        display: block;
+        padding: 5px 15px;
+        font-size:150%;
+        text-decoration: none;
+        background: #FCC622;
+        margin-right: 5px; /* добавляем отступы между пунктами */
+}
+
+.menu a:hover {
+        background: #8AB8CC;
+    }
+
+
+.title2 a{
+
+	font-size:35px;
+	margin-left: 300px;
+	color:#696A72;
+	text-align: center;
+
+}
+
+.main {
+	margin-bottom: 20px;
+	margin-left: 300px;
+	border: 5px double #FCC622;
+	padding: 6px;
+	float:right;
+	text-align:justify;
+	font-size: 20px; 
+}
+
+.spisok {
+	height: 100%; /* 100% Full-height */	
+	width: 300px; /* 0 ширина - изменить это с помощью JavaScript */
+	position: fixed; /* Оставайтесь на месте */
+	z-index: 1; /* Оставайтесь сверху */
+	top: -15px;
+	left: 0;
+	background-color: #111; /* Фон черный*/
+	overflow-x: hidden; /* Отключить горизонтальную прокрутку */
+}
+
+.spisok li, a{
+	padding: 6px 8px 6px 0px;
+	text-decoration: none;
+	font-size: 22px;
+	color: #818181;
+	display: block;
+}
+
+.kartinka {
+	margin-left: 300px; /* То же, что и ширина боковой навигации */
+	padding: 10px 0px;
+	text-align: center;
+}
+
+img.animate1:hover {
+
+    filter: alpha (Opacity=25);/* прозрачность для IE */
+    opacity: 0.45;/* прозрачность для других браузеров */
+
+}
+
+.trans {
+    	transition: 1s; /* Время эффекта */
+   }
+.trans:hover {
+    	transform: scale(1.1); /* Увеличиваем масштаб */
+ }
+
+.footer {
+	margin-left: 300px;
+	position: fixed;/* Фиксированное положение */
+	left: 0; bottom: 0; /* Левый нижний угол */
+	padding: 2px; /* Поля вокруг текста */
+	background: #FCC622; /* Цвет фона */
+	width: 100%;
+}
+
+.left {
+	margin-left: 300px;
+	float: left;
+	padding: 0px 20px 20px 0;
+}
+
+table {
+	margin-left: 300px;
+	border: 1px solid grey;
+	width:1550px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 14px;
+
+	border-spacing: 0;
+	
+}
+/* границы ячеек первого ряда таблицы */
+th {
+   	border: 1px solid grey;
+	background-color: #FCC622;
+}
+
+
+
+/* границы ячеек тела таблицы */
+td {
+   border: 1px solid grey;
+	text-align:justify;
+}
+
+.text {
+	
+	margin-left: 300px;
+	padding: 6px;
+	float:right;
+	text-align:justify;
+	font-size: 20px; 
+}
+
+
+
+
+
+
